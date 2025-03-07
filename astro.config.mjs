@@ -30,7 +30,7 @@ export default defineConfig({
     sitemap(),
     icon(),
   ],
-  output: "hybrid",
+  output: "static",
   adapter: vercel(),
   markdown: {
     rehypePlugins: [
